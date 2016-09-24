@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ranjitha.prj.MainActivity"
+    style="@style/Base.TextAppearance.AppCompat.Display3"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/sballon"
+
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_marginLeft="186dp"
+        android:layout_marginStart="186dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/sballon"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_marginRight="193dp"
+        android:layout_marginEnd="193dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/gems"
+        android:scaleType="fitXY"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="327dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="HAPPY"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+        android:textSize="50sp"
+        android:textColor="#aa5591"
+        android:id="@+id/textView"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Birthday!"
+        android:textColor="#aa5591"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/me"
+        android:scaleType="fitXY"
+        android:layout_marginTop="0dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_alignBottom="@+id/textView2" />
+</RelativeLayout>
